@@ -4,14 +4,13 @@
 const mongoose = require('mongoose');
 const { default: MongoMemoryServer } = require('mongodb-memory-server');
 module.exports = require('supertest');
-
 let mongoServer;
+
+
 
 async function startDB() {
   mongoServer = new MongoMemoryServer();
-
   const mongoUri = await mongoServer.getConnectionString();
-
   const mongooseOptions = {
     useNewUrlParser: true,
     useCreateIndex: true,
