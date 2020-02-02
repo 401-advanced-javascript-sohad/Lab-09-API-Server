@@ -9,11 +9,11 @@ API Server
 ### Author: Brad Smialek
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/401-advanced-javascript-sohad/Lab-09-API-Server/pull/1)
 
-* [action]()
+* [action](https://github.com/401-advanced-javascript-sohad/Lab-09-API-Server/actions)
 
-* [Heroku]() 
+* [Heroku](https://api-server-sohad.herokuapp.com/) 
 
 
 
