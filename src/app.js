@@ -12,7 +12,7 @@ const morgan = require('morgan');
 const errorHandler = require( `${server}/src/middleware/500.js`);
 const notFound = require( `${server}/src/middleware/404.js` );
 const v1Router = require( `${server}/docs/config/v1.js` );
-const swagger = require(`${server}/docs/config/swagger.js`);
+// const swagger = require(`${server}/docs/config/swagger.js`);
 // Prepare the express app
 const app = express();
 
